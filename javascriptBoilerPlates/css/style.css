@@ -1,0 +1,20 @@
+/**
+ * file: style.css
+ * purpose: styles, animation etc
+ * further development: meyer reset perhaps?
+ **/
+
+body {
+  background-image: url(../images/park.jpg);
+  overflow: hidden;
+}
+
+.red {
+    
+  background-image: url(../images/galaxy.jpg);
+  position: relative;
+  width: 50px;
+  height: 50px;
+  
+    
+}
