@@ -12,8 +12,9 @@ let Many = function(howMany){
 	for(let i=0; i<howMany; i++){
   
   	// create elements on the fly
-    let newDiv = document.createElement("div");
+    let newDiv = document.createElement("img");
     newDiv.classList.add("red");
+    newDiv.src="../images/rose.png";
     newDiv.style.left = Math.floor( Math.random() * w) + 'px';
     newDiv.style.top = Math.floor( Math.random() * h) + 'px';
     newDiv.style.transform = 'rotate('
@@ -25,7 +26,8 @@ let Many = function(howMany){
   }
 }
 
-klik.addEventListener("onclick", Many(67));
+
+//klik.addEventListener("onclick", Many(2));
 
 //document.getElementById("klik").onclick= Many(Math.floor(Math.random() * 3 ) + 1)
 
